@@ -106,3 +106,136 @@ i {
     color: white;
     padding-top: 10px;
 }
+
+/* Start main */
+
+.container-centre, .container-main {
+    flex-direction: column;
+}
+
+/* box1 */
+
+.container-box {
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.box1 {
+    height: 80%;
+    width: 70%;
+}
+
+.box1-left {
+    height: 100%;
+    width: 65%;
+    background-image: url(img/item1.svg);
+    background-size: cover;
+}
+
+.box1-right {
+    height: 100%;
+    width: 35%;
+    padding-top: 30px;
+}
+
+/* box1-reverse */
+
+.container-box-reverse {
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.box1-reverse {
+    height: 80%;
+    width: 70%;
+}
+
+.box1-left-reverse {
+    height: 100%;
+    width: 35%;
+    padding-top: 30px;
+}
+
+.box1-right-reverse {
+    height: 100%;
+    width: 65%;
+    background-image: url(img/item2.svg);
+    background-size: cover;
+}
+
+/* box1_2 */
+
+.container-box2 {
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.box1_2 {
+    height: 80%;
+    width: 70%;
+}
+
+.box1_2-left {
+    height: 100%;
+    width: 65%;
+    background-image: url(img/item3.svg);
+    background-size: cover;
+}
+
+.box1_2-right {
+    height: 100%;
+    width: 35%;
+    padding-top: 30px;
+}
+
+/* container-bottom */
+
+.container-bottom {
+    width: 100%;
+    height: 850px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box-bottom {
+    
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    width: 70%;
+}
+.text-bottom {
+    text-align: center;
+}
+
+/* container-pattern */
+
+.container-pattern {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 400px;
+    background-image: url(img/stars.svg);
+    background-size: cover;
+}
+
+h4{
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.background {
+    background-color: rgb(85, 85, 216);
+    color: white;
+}
